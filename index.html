@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RGB Slider</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="backBox">
+
+      <h2>Updating RGB Color with JavaScript</h2>
+
+      <div class="controls">
+        <label for="red">Red</label>
+        <input id="red" type="range" name="red" min="0" max="255" value="255">
+
+        <label for="green">Green</label>
+        <input id="green" type="range" name="green" min="0" max="255" value="255">
+
+        <label for="blue">Blue</label>
+        <input id="blue" type="range" name="blue" min="0" max="255" value="255">
+      </div>
+
+      <p class="colorValues">RGB(<span id="redColor">255</span>, <span id="greenColor">255</span>, <span id="blueColor">255</span>)</p>
+
+    </div>
+
+    <script type="text/javascript" src="animation.js"></script>
+  </body>
+</html>

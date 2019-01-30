@@ -1,0 +1,44 @@
+:root {
+    --red: 255;
+    --green: 255;
+    --blue: 255;
+  }
+
+    /*
+      misc styles, nothing to do with CSS variables
+    */
+
+    body {
+      text-align: center;
+      background-color: rgb(var(--red), var(--green), var(--blue));
+      color: white;
+      font-family: 'helvetica neue', sans-serif;
+      font-weight: 100;
+      font-size: 2rem;
+    }
+
+    .backBox {
+      width: 80%;
+      height: 50%;
+      margin: 0 auto;
+      background-color: rgba(0, 0, 0, 0.2);
+      padding: 1rem;
+    }
+
+    .controls {
+      margin-bottom: 1.5rem;
+      display: inline-block;
+      margin-left: -5rem;
+    }
+
+    label {
+      margin-left: 5rem;
+    }
+    .colorValues {
+      font-size: 1.5rem;
+      margin-top: 0;
+    }
+
+    input {
+      width: 100px;
+    }
